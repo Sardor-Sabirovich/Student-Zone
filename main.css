@@ -1,0 +1,131 @@
+body {
+	font-family: 'Outfit', sans-serif;
+	background: url(../images/bg.jpg) no-repeat;
+	background-size: cover;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+.titles {
+	font-weight: 700;
+	font-size: 53px;
+	line-height:100%;
+	text-transform: capitalize;
+	color: #ffba00;
+	margin-bottom: 20px;
+}
+
+.subtitles {
+	font-weight: 600;
+	font-size: 24px;
+	line-height:138%;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.container {
+	max-width:1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header__inner {
+	padding-bottom: 48px;
+}
+
+.header__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.header__button-left {
+	border: 2px solid #ffba00;
+	margin-right: 32px;
+	transition: 0.3s;
+}
+
+.header__button-left:hover {
+	background-color: transparent;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+.header__button-left:active {
+	background-color: #000;
+	color: #ffba00;
+	border: 2px solid #ffba00;
+}
+
+.header__button-right {
+	background: transparent;
+	border: 2px solid #000;
+	transition: 0.3s;
+}
+
+.header__button-right:hover {
+	background-color: transparent;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+.header__button-right:active {
+	background-color: #000;
+	color: #ffba00;
+	border: 2px solid #ffba00;
+}
+
+.buttons {
+	color: #000;
+	background-color:#ffba00;
+	font-weight: 600;
+	border-radius: 30px;
+	padding: 12px 25px;	
+	font-size: 17px;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+
+
+.stylish-design-title {
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 15px;
+	font-weight: 600;
+	position: relative;
+}
+
+.stylish-design-text {
+	width: 650px;
+	color: #fff;
+	font-size: 28px;
+	margin-bottom: 35px;
+	line-height: 35px;
+}
+
+.design-btn {
+	border: 2px solid #ffba00;
+	padding: 15px 30px;
+	background: transparent;
+	font-size: 15px;
+	color: #fff;
+	transition: 0.3s;
+	font-weight: 600;
+}
+
+.design-btn:hover {
+	border: 2px solid #fff;
+}
+
+.design-btn:active {
+	border: 2px solid #ffba00;
+	color: #ffba00;
+	background-color: #000;
+} 
